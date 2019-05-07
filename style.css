@@ -1,0 +1,145 @@
+ul {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    list-style-type: None;
+    margin-top: 20px;
+}
+
+.left, .footer-left {
+    float: left;
+    padding: 0px 15px;
+}
+
+.left li, .footer-left li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+.right, .footer-right {
+    float: right;
+    padding: 0px 30px;
+}
+
+.right li, .footer-right li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+.container {
+    height: 233px;
+    padding: 100px 100px 0px 100px;
+    text-align: center;
+}
+
+.container img {
+    padding-top: 109px;
+}
+
+.list-text a {
+    color: #000000;
+}
+
+.list-text a, .sign-in a, .footer-text a {
+    text-decoration: none;
+}
+
+.list-text a:hover, .footer-text a:hover {
+    text-decoration: underline;
+}
+
+.search-buttons {
+    justify-content: center;
+    width: 100%;
+}
+
+li.sign-in {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    border-radius: 2px;
+    padding: 7.5px 15px;
+}
+
+li.sign-in a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.sign-in a:hover {
+    cursor: default;
+}
+
+.text-box {
+    height: 44px;
+    width: 484px;
+    text-align: center;
+    margin: 0 auto;
+    border: solid;
+    border-radius: 24px;
+    align-content: center;
+    justify-content: center;
+    border-color: rgb(223, 225, 229);
+    border-width: 1px;
+    z-index: 5;
+}
+
+.text-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rbga(223, 225, 229, 0);
+}
+
+form {
+    width: 100%;
+    margin: 0;
+    height: 75px;
+    text-align: center;
+}
+
+input.search {
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    height: 36px;
+    margin: 11px 4px;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0px 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+}
+
+input.search:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    border: 1px solid #c6c6c6;
+}
+
+input.search-bar {
+    width: 90%;
+    height: 34px;
+    border: none;
+    margin-top: 5px;
+    align-content: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul li.footer-text a {
+    color: #5f6368;
+}
